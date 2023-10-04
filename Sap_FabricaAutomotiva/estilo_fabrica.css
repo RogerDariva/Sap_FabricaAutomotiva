@@ -15,6 +15,7 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
+    z-index: 5;
 }
 
 .div2{
@@ -28,6 +29,7 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
+    z-index: 6;
 }
 
 .div3{
@@ -40,6 +42,7 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
+    z-index: 7;
 }
 
 .div4{
@@ -52,6 +55,7 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
+    z-index: 3;
 }
 
 .div5{
@@ -64,6 +68,7 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
+    z-index: 8;
 }
 
 .div6{
@@ -76,6 +81,7 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
+    z-index: 10;
 }
 
 .div7{
@@ -88,6 +94,7 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
+    z-index: 9;
 }
 
 .div8{
@@ -100,6 +107,7 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
+    z-index: 2;
 }
 
 .div9{
@@ -112,6 +120,7 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
+    z-index: 1;
 }
 
 .div10{
@@ -124,6 +133,7 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
+    z-index: 11;
 }
 
 .div11{
@@ -137,4 +147,13 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
+    z-index: 0;
+}
+
+.azul{
+    background-color: #0000FF;
+}
+
+.branco{
+    background-color: #FFFFFF;
 }
