@@ -31,6 +31,14 @@
         <h1>Area <?php echo $area ?></h1>
         <table>
             <thead>
+            
+            <?php
+                if(count($automoveis)==0){
+                    echo 'Não tem modelos na área';
+                    die();
+                }
+            ?>
+            
             <tr>
                 <th>Modelo</th>
                 <th>Preço</th>
