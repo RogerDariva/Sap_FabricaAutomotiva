@@ -1,7 +1,7 @@
 .divMain{
     height: 1000px;
     width: 1300px;
-    background-color: gray;
+    background-color: #b0afaf;
 }
 
 .div1{
@@ -15,7 +15,8 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
-    z-index: 5;
+    position: absolute;
+    z-index: 15;
 }
 
 .div2{
@@ -29,7 +30,7 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
-    z-index: 6;
+    z-index: 14;
 }
 
 .div3{
@@ -42,7 +43,7 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
-    z-index: 7;
+    z-index: 13;
 }
 
 .div4{
@@ -55,7 +56,7 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
-    z-index: 3;
+    z-index: 16;
 }
 
 .div5{
@@ -68,7 +69,7 @@
     border-width:2px;
     border-color: black;
     border-style: solid;
-    z-index: 8;
+    z-index: 12;
 }
 
 .div6{
