@@ -1,5 +1,4 @@
 .divMain{
-    position: absolute;
     bottom:150px;
     left: 370px;
     background-color: white;
@@ -27,13 +26,25 @@
     background-color: #7814FF;
     margin-left: 300px;
     color: white;
-    margin-top: 250px;
+    margin-top: 200px;
     width: 140px;
     height: 30px;
 }
 
-text{
+.checkbox{
+    margin-left: 50px;
+}
+
+.modelo{
     margin-left: 50px;
     color: #7814FF;
 }
+
+.cliente{
+    margin-left: 50px;
+    color: #7814FF;
+}
+
+
+
 

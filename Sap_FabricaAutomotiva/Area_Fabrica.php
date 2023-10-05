@@ -31,7 +31,7 @@ $totalAreas = $query->fetchAll();
     for($area = 1; $area < 12; $area++){
         //print_r($totalAreas[$area]['total']);
         echo '<a href="detalhes_Area.php?idArea='.$area.'">';
-            if(!empty($totalAreas[$area]['total'])){
+            if(empty($totalAreas[$area]['total'])){
                 echo '<div class="div'.$area.' azul">';
             }
             else{
