@@ -151,6 +151,8 @@
     z-index: 0;
 }
 
+a { color: black; }
+
 .azul{
     background-color: #0000FF;
 }

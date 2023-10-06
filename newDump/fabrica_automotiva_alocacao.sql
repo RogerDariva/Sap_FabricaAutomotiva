@@ -1,3 +1,5 @@
+CREATE DATABASE fabrica_automotiva;
+USE fabrica_automotiva;
 -- MariaDB dump 10.19  Distrib 10.4.21-MariaDB, for Win64 (AMD64)
 --
 -- Host: 127.0.0.1    Database: fabrica_automotiva
