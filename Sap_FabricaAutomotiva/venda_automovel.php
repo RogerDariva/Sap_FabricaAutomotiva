@@ -23,24 +23,43 @@ $concessionarias = $query2->fetchAll();
         <title>Venda de Automoveis</title>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <link rel="stylesheet" href="estilo_venda.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     </head>
 
     <body>
-        <div class="divMain">
-            <div class="divTop"></div>
-            <h1 class="modelo">XYZ</h1>
 
-            <label class="cliente" for="">Cliente:</label>
-            <select class="checkbox" name="cliente"  id="">
-            <?php
-                foreach($clientes as $cliente){
-                    echo '<option value="">'.$cliente['nome'].'</option>';
-                }
+        <div class='container'>
+            <div class="form-group">
+                <div class="form-group col-md-4">
+                    <p class="h2">XYZ</p>
+                    <br>
 
-            ?>
+                    <label class="cliente" for="inputState">Cliente:</label>
+                    <select class="form-control" name="cliente"  id="">
+                    <option value=""></option>
+                    <?php
+                        
+                        foreach($clientes as $cliente){ echo '<option value="">'.$cliente['nome'].'</option>'; }
+                    ?>
+                    </select>
+                    <br>
+                    
+                    <label class="cliente" for="inputState">Concessionarias:</label>
+                    <select class="form-control" name="cliente"  id="">
+                    <option value=""></option>
+                    <?php
+                        
+                        foreach($concessionarias as $concessionaria){ echo '<option value="">'.$concessionaria['concessionaria'].'</option>'; }
+                    ?>
+                    </select>
 
-            <input type="submit" class="btn textWhite" value="Confirmar">
+                    <br>
+                    <button type="submit" class="btn btn-primary">Confirmar</button>
+                </div>
+            </div>
         </div>
+            
+
     </body>
     <!--
     
